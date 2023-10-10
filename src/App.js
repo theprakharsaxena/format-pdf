@@ -1,5 +1,4 @@
 import jsPDF from "jspdf";
-import logo from "./logo.svg";
 
 function App() {
   const downloadPDF = () => {
@@ -41,6 +40,7 @@ function App() {
               <a
                 href="https://play.google.com/store/apps/details?id=stock.register.godown.stock.record.shop.stock.ledger&hl=en-IN"
                 target="_blank"
+                rel="noreferrer"
                 style={{
                   fontWeight: "700",
                   color: "#1404fd",
